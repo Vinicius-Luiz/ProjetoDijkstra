@@ -30,15 +30,13 @@
 >   **4.**   **Como o problema foi resolvido;**
 >
 >   1. Dado dois aeroportos, verificamos se eles possuem uma rota sem escala, se não houver, o algoritmo de Dijkstra encontra a menor rota com escala entre dois aeroportos não conectados diretamente.
->      5. **As tecnologias utilizadas;**
+>   **5.** **As tecnologias utilizadas;**
 >
 >   1. A representação do grafo foi implementada por meio da matriz de adjacência
 >
 >   2.  Foi implementado também um dicionário que dado um vértice, visualizamos o nome dos seus adjacentes, assim, facilitando a busca.
 >
 >   **6.**   **Resultados encontrados; como avaliar os resultados encontrados? Você conseguiu colocar alguma medida que avalie a qualidade dos seus resultados? Se não encontrou, tudo bem, mas justifique.**
->
->   1. Como analisar 52.986 rotas inexistentes demanda muito custo, não foi possível fazer uma análise completa de ambos os pontos a seguir:
 >
 >   1. Em uma análise completa nas 52.986 rotas sem escalas não existentes, o algoritmo de Dijkstra conseguiu encontrar um menor caminho em **todas** elas, ou seja, para todo aeroporto A, conseguimos chegar a qualquer outro aeroporto B através do algoritmo. (100% de eficácia).
 >
